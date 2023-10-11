@@ -1,64 +1,109 @@
-#body {
-    font-family: 'Roboto', sans-serif;
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
-#bodynl {
-    font-family: 'Roboto', sans-serif;
-}
-
-header {
-    background-color: aliceblue;
-    width: 100%;
-    height: auto;
+.site-header {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 75px;
 }
 
 .menu {
-    list-style: none;
-    padding: 0;
-    background-color: #333;
+  list-style: none;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
 }
 
 .menu li {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .menu a {
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #fff;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
 }
 
 /* Stijl voor het submenu */
 .menu .submenu ul.submenu-list {
-    display: none;
-    position: absolute;
-    background-color: #555;
-    z-index: 1;
-    top: 100%;
-    left: 0;
+  display: none;
+  position: absolute;
+  background-color: beige;
+  z-index: 1;
+  top: 100%;
+  left: 0;
 }
 
 .menu .submenu:hover ul.submenu-list {
-    display: block;
+  display: block;
 }
 
 /* Stijl voor het subsubmenu */
 .menu .submenu .subsubmenu ul.subsubmenu-list {
-    display: none;
-    position: absolute;
-    background-color: #777;
-    z-index: 1;
-    top: 0;
-    left: 100%;
+  display: none;
+  position: absolute;
+  background-color: beige;
+  z-index: 1;
+  top: 0;
+  left: 100%;
 }
 
 .menu .submenu .subsubmenu:hover ul.subsubmenu-list {
-    display: block;
+  display: block;
 }
 
 /* Stijl voor hover-effect op hoofdmenu-items */
 .menu li:hover a {
-    background-color: #555;
+  background-color: #ffffff;
+}
+
+.nltekstvak {
+  height: 550px;
+  width: device-width;
+  background-color: bisque;
+  display: grid;
+  align-items: center;
+  flex-direction: column;
+  /* Hiermee worden de tekstblokken onder elkaar geplaatst */
+  justify-content: center;
+  /* Verticale centrering van de tekst */
+}
+
+.tekstvaktekst {
+  padding-left: 600px;
+  padding-right: 600px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: large;
+}
+
+.home {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.nederland {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+#ns {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.hometekstvak {
+  height: 300px;
+  width: device-width;
+  background-color: bisque;
+  display: grid;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }

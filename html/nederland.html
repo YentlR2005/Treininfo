@@ -11,37 +11,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
-<body id="bodynl">
+<body class="body">
     <header>
-        <h1>Jouw Website Naam</h1>
+        <header class="site-header">
+            <nav>
+                <ul class="menu">
+                    <li><a href="/index.html">Home</a></li>
+                    <li class="submenu">
+                        <a href="materieel.html">Materieel</a>
+                        <ul class="submenu-list">
+                            <li class="subsubmenu">
+                                <a href="nederland.html">Nederland</a>
+                                <ul class="subsubmenu-list">
+                                    <li><a href="intercity.html">Intercity</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-        <a href="/index.html">Home</a>
-        <a href="nederland.html">Nederland</a>
-        <a href="materieel.html">Materieel</a>
-        <a href="intercity.html">Intercity</a>
+        <main>
+            <p class="nederland">Nederland</p>
+            <div class="nltekstvak">
+                <p class="tekstvaktekst">In Nederland rijden verschillende treinmaatschappijen. Hier komen ze allemaal
+                    op een rijtje.
+                </p>
+                <p id="ns" class="tekstvaktekst">NS (Nederlandse Spoorwegen)</p>
+                <p class="tekstvaktekst">De NS werd opgericht in 1938 en het was tot en met 1994 de enige eigenaar van
+                    alle spoorlijnen in
+                    Nederland. De Directeur van de NS is op dit moment (sinds 1 november 2022) Wouter Koolmees.</p>
 
+            </div>
+        </main>
 
-    </header>
-
-    <main>
-        <section>
-            <h2>Welkom op onze website</h2>
-            <p>Dit is een voorbeeldtekst. Vervang dit door je eigen inhoud.</p>
-        </section>
-<ul>
-    <li>Pagina 1
-<ul>
-<li>Subpagina a</li>
-<li>Subpagina b</li>
-</ul>
-</li>
-        <!-- Voeg meer secties en inhoud toe zoals nodig -->
-
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Jouw Bedrijfsnaam</p>
-    </footer>
+        <footer>
+            <p>&copy; Treininfo</p>
+        </footer>
 </body>
 
 </html>
