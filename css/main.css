@@ -61,15 +61,13 @@
 }
 
 .nltekstvak {
-  height: 550px;
+  height: 400px;
   width: device-width;
   background-color: bisque;
   display: grid;
   align-items: center;
   flex-direction: column;
-  /* Hiermee worden de tekstblokken onder elkaar geplaatst */
   justify-content: center;
-  /* Verticale centrering van de tekst */
 }
 
 .tekstvaktekst {
@@ -106,4 +104,24 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+
+.materieeltekstvak {
+  height: 300px;
+  width: device-width;
+  background-color: bisque;
+ display: grid;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.materieel {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+}
+#materieelns{
+  font-weight: bold;
+  font-size: larger;
 }
