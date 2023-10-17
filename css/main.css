@@ -106,14 +106,14 @@
   justify-content: center;
 }
 
-.materieeltekstvak {
-  height: 300px;
+#materieeltekstvak {
+  height: 450px;
   width: device-width;
   background-color: bisque;
- display: grid;
- align-items: center;
- flex-direction: column;
- justify-content: center;
+  display: grid;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .materieel {
@@ -121,7 +121,15 @@
   font-size: 60px;
   font-weight: 900;
 }
-#materieelns{
-  font-weight: bold;
-  font-size: larger;
+
+#materieeltabel {
+  border-style: solid;
+  border-radius: 10px;
+  width: 400px;
+  border-collapse: collapse;
+  border: 1px ;
+}
+
+img {
+  border-radius: 10px;
 }
